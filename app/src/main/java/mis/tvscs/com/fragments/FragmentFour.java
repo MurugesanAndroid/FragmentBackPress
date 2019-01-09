@@ -17,6 +17,15 @@ public class FragmentFour  extends BaseFragment implements View.OnClickListener 
 
     private Context mContext;
 
+
+//    public static FragmentFour newInstance(PaymentCheckModel mPaymentCheckModel) {
+//        Bundle args = new Bundle();
+//        args.putSerializable("mPaymentCheckModel",mPaymentCheckModel);
+//        PaymentSummery fragment = new PaymentSummery();
+//        fragment.setArguments(args);
+//        return fragment;
+//    }
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

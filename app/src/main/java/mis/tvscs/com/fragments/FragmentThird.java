@@ -44,6 +44,8 @@ public class FragmentThird extends BaseFragment implements View.OnClickListener 
 
                 addFragment(new FragmentFour(),true,"FragmentFour");
 
+               // addFragment(FragmentFour.newInstance(paymentCheckModel),true,"FragmentFour");
+
                 break;
         }
     }
