@@ -45,7 +45,7 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.FragmentOne:
-                addFragment(new FragmentSecond(),true,"FirstFragment");
+                addFragment(new FragmentSecond(),true,"FragmentSecond");
                 break;
         }
     }
